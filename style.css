@@ -1,0 +1,241 @@
+/* * {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+    } */
+
+html,body{
+    height: 100%;
+    body: 100%;
+    background:#F6EFC2 ;
+    color: #086086;
+    font-size:10px;
+
+}
+
+*{
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+h1{
+    font-size: 80px;
+}
+
+p{
+    color:#f0844b;
+    font-size: 30px;
+    padding:10px;
+}
+
+
+/* navbar */
+ul>li{
+    float:left;
+    list-style: none;
+    padding:10px 40px;
+    font-size: 28px;
+}
+.navbar {
+    background-color: #086086!important; 
+    padding:5px;
+  }
+
+.navbar .nav-link{
+    color:white!important;
+    padding:5px;
+}
+
+.navbar-brand img{
+    position: relative;
+    top:-12px;
+}
+
+.navbar-collapse-center {
+    text-align: center;
+    margin:20px;
+}
+
+#start-test{
+  text-align: center;
+  border-radius: 35px;
+  border:solid 2px #f6efc2;
+}
+
+#start-test:hover{
+    background-color: #F6B656;
+    text-decoration: none;
+}
+
+
+/* hero section */
+.hero{
+    position: relative;
+
+    height:100vh;
+    background-image:url("img/Landing\ Page_1920x1080_工作區域\ 1.png");　
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.hero-box{
+    height:300px;
+    background-color: #086086;
+}
+
+
+/* testbtn */
+
+.cta-container{
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.cta{
+    margin:0 auto;
+    padding: 15px 60px;
+    font-size: 40px;
+
+    border-radius: 50px;
+    background-color: #f0844b;
+    width: 380px;
+    height: 94px;
+    text-align: center;
+}
+.cta:hover{
+    background-color:#F8B856;
+}
+.cta a{
+    color:white;
+}
+
+.cta a:hover{
+    text-decoration: none;
+}
+
+
+
+/* exhibition活動資訊 */
+.exhibition{
+    padding: 6rem;
+}
+
+
+/* howto參與方式 */
+.howto{
+    padding: 6rem;
+}
+
+.howto p{
+    color:#f0844b;
+    font-size: 26px;
+    padding:10px;
+}
+
+.howto #works{
+    padding:0;
+}
+
+
+/* thanks特別感謝 */
+.thanks{
+    padding: 6rem;
+    background:#F8B856;
+}
+.thanks p{
+    color:#086086;
+}
+.thanks img{
+    margin:10px;
+}
+
+
+/* footer */
+footer{
+    background-color: #F0844B;
+    color:white;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-size: 16px;
+
+}
+footer a{
+    color:#086086;
+}
+
+footer a:hover{
+    text-decoration: none;
+    color:lightgrey;
+}
+
+
+@media(max-width:768px){
+    .hero{
+        position: relative;
+    
+        height:100vh;
+        background-image:url("img/768x1024.jpg");　
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
+    .cta{
+        margin:0 auto;
+        padding: 15px 60px;
+        font-size: 30px;
+    
+        border-radius: 50px;
+        background-color: #f0844b;
+        width: 300px;
+        height: 80px;
+        text-align: center;
+    }
+
+    .howto{
+        padding: 3rem;
+    }
+    .howto img{
+        width: 50%;
+    }
+
+    .exhibition{
+        padding: 3rem;
+    }
+    .thanks{
+        padding: 3rem;
+    }
+    .thanks img{
+        padding:18px;
+    }
+
+    h1{
+        font-size: 48px;
+    }
+    p{
+        font-size:20px;
+    }
+
+    footer span{
+        font-size:13px;
+    }
+
+}
+
+@media(max-width:375px){
+    .hero{
+        position: relative;
+    
+        height:100vh;
+        background-image:url("img/375x667.jpg");　
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
+    
+}
